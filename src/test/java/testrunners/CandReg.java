@@ -5,7 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features={"featurefiles/candidatereg.feature"},glue="stepdefinitions",
 dryRun=false,plugin={"com.cucumber.listener.ExtentCucumberFormatter:Reports/reports.html"},
-		 format={"pretty","html:target/cucumber","json:target/cucumber.json"})
+		 format={"pretty","html:target/cucumber","json:target/cucumber.json"},tags="@Registration")
 public class CandReg extends AbstractTestNGCucumberTests {
 
 }
