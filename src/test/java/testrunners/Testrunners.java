@@ -12,7 +12,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		"featurefiles/additionalinfo.feature",
 		"featurefiles/prescreeningQ.feature"},glue="stepdefinitions",
 dryRun=false,plugin={"com.cucumber.listener.ExtentCucumberFormatter:Reports/loginres.html"},
-		 format={"pretty","html:target/cucumber","json:target/cucumber.json"},tags="@RecruiterLogin,@RecruiterLogout,@CreateNewJob,@SkillsandEducation,@AdditionalInfo,@PreScreeningQuestions")
+		 format={"pretty","html:target/cucumber","json:target/cucumber.json"},tags="@RecruiterLogin,@Registration,@RecruiterLogout,@CreateNewJob,@SkillsandEducation,@AdditionalInfo,@PreScreeningQuestions")
 public class Testrunners extends AbstractTestNGCucumberTests
 {
 	
